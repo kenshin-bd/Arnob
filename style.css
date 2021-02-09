@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Fruktur&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+* {
+    box-sizing:border-box;
+    font-family: 'Pacifico', cursive;
+    color:rgba(139, 106, 90, 0.959)
+}
+
+
+html, body{
+    margin:5px;
+    padding:0;
+}
+.nav ul{
+    margin:0;
+}
+.nav li{
+    
+
+    display: inline;
+    color:lavender;
+
+}
+.nav a{
+    display:inline-block;
+    padding:20px;
+    color: white;
+    text-decoration:none;
+    
+}
+.main-nav {
+    text-align: center;
+    font-size: 1.1em;
+    font-weight: lighter;
+    border-bottom:1px solid rgba(139, 106, 90, 0.959)
+
+}
+.main-nav li{
+    padding: 20px 20px;
+
+}
+
+.nav a:hover{
+    background-color:rgba(95, 54, 54, 0.801);
+    font-weight: bold;
+    transform: rotatez(0deg) translate(-4px, -2px) skew(0deg, 0deg);
+    transition: 0.5s ease-out;
+}
+.nav a:active{ 
+    box-shadow: 0px 0px 0 0 #333;
+    transform: rotatez(0deg) translate(0px, 0px) skew(-4deg, -2deg);
+    transition: .1s ease;
+}
+.main-header{
+    background-color: rgba(0,0,0, .6);
+    background-image: url("Images/58064.jpg");
+    background-blend-mode:multiply;
+    background-size:cover;
+    padding-bottom: 30px;
+}
+.band-name{
+    text-align:center;
+    margin: 0;
+    font-size:3em;
+    font-weight: normal;
+    color:rgba(255, 255, 255, 0.925)
+
+}
+.section-header{
+    text-align:center;
+    font-size: 1.5em;
+    font-weight: lighter;
+}
+.section-main {
+    max-width: cover;
+    margin:0 5%;
+    text-align:justify;
+    
+}
+.Image{
+   
+    float:left;
+    height:250px;
+    width:450px;
+    margin:5%;
+    margin-left:0;
+}
+.fb {
+    font-family:fantasy;
+    font-size:20px;
+    color:rgb(214, 195, 172);
+    padding: 7px 10px ;
+    background-color:rgb(136, 106, 91);
+    border-radius: 15px;
+    display: flex;
+    border: 2px solid transparent;
+    transition: 0.3s ease-out;
+    margin: 5px;
+
+}
+
+.fb:hover {
+    cursor: pointer;
+    color:#333;
+    font-size: 1.2em;
+    border: 3px solid #333;
+    box-shadow: 3px 3px 0 0 #333;
+    transform: rotatez(0deg) translate(-4px, -2px) skew(-4deg, -2deg);
+    transition: 0.5s ease-out;
+}
+.fb:focus {
+    outline:none;
+}
+.fb:active {
+    box-shadow: 0px 0px 0 0 #333;
+    transform: rotatez(0deg) translate(0px, 0px) skew(-4deg, -2deg);
+    transition: .1s ease;
+
+
+}
+.fba:hover {
+    cursor: pointer;
+    color:#333;
+    font-size: 1.2em;
+    border: 3px solid #333;
+    box-shadow: 3px 3px 0 0 #333;
+    transform: rotatez(0deg) translate(-4px, -2px) skew(0deg, 0deg);
+    transition: 0.7s ease-out;
+}
+.fba:focus {
+    outline:none;
+}
+.fba:active {
+    box-shadow: 0px 0px 0 0 #333;
+    transform: rotatez(0deg) translate(0px, 0px) skew(0deg, 0deg);
+    transition: .2s ease;
+
+
+}
+
+
